@@ -6,3 +6,12 @@ task devJar(type: Jar) {
 artifacts {
 	archives devJar
 }
+
+repositories {
+	maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile 'com.github.makamys:PlayerAPI:07e8c2f:dev'
+	compile 'com.github.makamys:RenderPlayerAPI:a9470c3:dev'
+}
