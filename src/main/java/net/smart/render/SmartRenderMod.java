@@ -27,7 +27,7 @@ import cpw.mods.fml.common.gameevent.TickEvent.*;
 import net.smart.render.statistics.*;
 import net.smart.utilities.*;
 
-@Mod(modid = "SmartRender", name = "Smart Render", version = "2.1", dependencies = "required-after:PlayerAPI@[1.3,)")
+@Mod(modid = "SmartRender", name = "Smart Render", version = "@VERSION@", dependencies = "required-after:PlayerAPI@[1.3,)")
 public class SmartRenderMod
 {
 	private static boolean addRenderer = true;
