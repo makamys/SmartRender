@@ -1,8 +1,8 @@
 [{
   "modid": "SmartRender",
   "name": "Smart Render",
-  "version": "2.1",
-  "mcversion": "1.7.10",
+  "version": "${version}",
+  "mcversion": "${minecraft_version}",
   "description": "Replaces the vanilla render model for the player with a much more useable one:\n\n * implement better animations with less code\n * attach additional renderers wherever you want\n * only worry about the animations of your own renderers",
   "credits": "",
   "url": "http://www.minecraftforum.net/topic/361430-",
