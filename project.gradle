@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.makamys:PlayerAPI:83fc9b6:dev'
-	compile 'com.github.makamys:RenderPlayerAPI:fb21a95:dev'
+	compile 'com.github.makamys:PlayerAPI:1.4:dev'
+	compile 'com.github.makamys:RenderPlayerAPI:1.4:dev'
 }
