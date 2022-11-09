@@ -1,1 +1,8 @@
-// Put your project-specific buildscript code in this file
+task devJar(type: Jar) {
+	classifier = 'dev'
+	from sourceSets.main.output
+}
+
+artifacts {
+	archives devJar
+}
